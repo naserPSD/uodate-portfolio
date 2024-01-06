@@ -46,21 +46,20 @@ export default function Home() {
                 
               </div>
               
+             
               <div className="sociallink-home">
-                <ul className="homeaboutsociallinks">
-                  <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{
-                      background: "#134E5E",
-                      color: "rgba(251, 217, 173, 0.972)", /* Set text color to transparent */
-                      WebkitTextFillColor: "#151F2D", /* For older Safari versions */
-                     // textShadow: "0 0 5px rgba(255, 255, 255, 0.8)", /* Apply gradient to text */
-                      boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08)",
-                    }}
-                    contentArrowStyle={{ borderRight: "7px solid  " }}
-                    //iconStyle={{ background: "blue", color: "blue" }}
-                   
-                  >
+  <ul className="homeaboutsociallinks">
+    <VerticalTimelineElement
+      className="vertical-timeline-element--work"
+      contentStyle={{
+        background: "#134E5E",
+        color: "rgba(251, 217, 173, 0.972)", /* Set text color to transparent */
+        WebkitTextFillColor: "#151F2D", /* For older Safari versions */
+        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08)",
+        border: "2px solid #FAD6A8", /* Add a white border */
+      }}
+      contentArrowStyle={{ borderRight: "7px solid" }}
+    >
                   
                     <div className="social-icons-box">
                       <ul className="social-icons-list">
@@ -106,6 +105,7 @@ export default function Home() {
 
                 </ul>
               </div>
+
             </Col>
             <Col md={4} style={{ paddingBottom: 20 }}>
               <div className="img-home-main">

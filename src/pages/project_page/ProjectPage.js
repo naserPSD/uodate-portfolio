@@ -52,7 +52,7 @@ export default function ProjectPage() {
                   <Row>
                     <Col md={12} className="mt-5">
                       <Row className="g-5">
-                        <Col md={3} className="col-sm-12 col-md-4">
+                        <Col md={3}>
                         <Fade bottom>
                           
                 <div
@@ -117,7 +117,7 @@ export default function ProjectPage() {
                   key={1}
                   className="singleProject"
                   style={{
-                    // backgroundColor: "rgb(142 70 186 / 31%)",
+                   // backgroundColor: "rgb(142 70 186 / 31%)",
                     border: "1px solid",
                   }}
                 >
@@ -166,65 +166,6 @@ export default function ProjectPage() {
                     }}
                   >
                     Java, Firebase
-                  </div>
-                </div>
-              </Fade>
-            </Col>
-            <Col md={3}>
-              <Fade bottom>
-                <div
-                  key={1}
-                  className="singleProject"
-                  style={{
-                    // backgroundColor: "",
-                    border: "1px solid",
-                  }}
-                >
-                  
-                  <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                    Portfolio
-                    </h5>
-                    <img src={eco} alt={eco} />
-                    <div className="project--showcaseBtn">
-                      <a
-                        href={
-                          "https://github.com/naserPSD/update-portfolio"
-                        }
-                        target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
-                    >
-                     A portfolio based on React.
-                    </p>
-                  </h6>
-                  <div
-                    className="project--lang"
-                    style={{
-                      background: "#fbd9ad",
-                      color: "#b061df",
-                      fontWeight: 600,
-                    }}
-                  >
-                    Javascript, Firebase
                   </div>
                 </div>
               </Fade>
@@ -346,6 +287,65 @@ export default function ProjectPage() {
                             </div>
                           </Fade>
                         </Col>
+                        <Col md={3} className="col-sm-12 col-md-4">
+              <Fade bottom>
+                <div
+                  key={1}
+                  className="singleProject"
+                  style={{
+                    // backgroundColor: "",
+                    border: "1px solid",
+                  }}
+                >
+                  
+                  <div className="projectContent">
+                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                    Portfolio
+                    </h5>
+                    <img src={eco} alt={eco} />
+                    <div className="project--showcaseBtn">
+                      <a
+                        href={
+                          "https://github.com/naserPSD/update-portfolio"
+                        }
+                        target="_blank"
+                        rel="noreferrer"
+                        className={"iconBtn"}
+                        aria-labelledby={`code`}
+                      >
+                        <FaCode
+                          id={`code`}
+                          className={"icon"}
+                          aria-label="Code"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <h6>
+                    <p
+                      className="project--desc"
+                      style={{
+                        background: "#fbd9ad",
+                        color: "#b061df",
+                        fontWeight: 600,
+                      }}
+                    >
+                     A portfolio based on React.
+                    </p>
+                  </h6>
+                  <div
+                    className="project--lang"
+                    style={{
+                      background: "#fbd9ad",
+                      color: "#b061df",
+                      fontWeight: 600,
+                    }}
+                  >
+                    Javascript, Firebase
+                  </div>
+                </div>
+              </Fade>
+            </Col>
                       </Row>
                     </Col>
                   </Row>

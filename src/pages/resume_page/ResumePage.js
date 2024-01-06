@@ -78,6 +78,7 @@ import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import Particle from "../../Particle";
+// import pdf from "../../assets/Naser_Resume_2.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Zoom from "react-reveal/Zoom";
@@ -87,9 +88,9 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const resumeLink =
   
-  "https://raw.githubusercontent.com/Naser768/MdNaserPf/main/Naser_Resume_2.pdf";
+  "https://raw.githubusercontent.com/Naser768/Naserpdf/main/Naser_Resume_21.pdf";
 
-
+ 
 function Resume() {
   const [width, setWidth] = useState(1200);
 
