@@ -68,9 +68,13 @@ export default function SocialMedia() {
                 <AiFillLinkedin />
               </Zoom>
             </a>
+            
           </Col>
+         
         </Row>
+        
       </Container>
+      
     </div>
   );
 }

@@ -24,10 +24,10 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          {/* <h3>Designed and Developed by Md Naser Bin Hossain</h3> */}
+          <h3>Please! connect with me by the Email address.</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          {/* <h3>Copyright © {year} Md Naser Bin Hossain</h3> */}
+          <h3>E-mail Address : naser.hossain04@gmail.com</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
