@@ -47,10 +47,10 @@ export default function Home() {
               </div>
               
              
-              <div className="sociallink-home">
-  <ul className="homeaboutsociallinks">
+              <div className="sociallink-home ">
+  <ul className="homeaboutsociallinks ">
     <VerticalTimelineElement
-      className="vertical-timeline-element--work"
+      className="vertical-timeline-element--work "
       contentStyle={{
         background: "#134E5E",
         color: "rgba(251, 217, 173, 0.972)", /* Set text color to transparent */
@@ -61,16 +61,16 @@ export default function Home() {
       contentArrowStyle={{ borderRight: "7px solid" }}
     >
                   
-                    <div className="social-icons-box">
-                      <ul className="social-icons-list">
-                        <li className="socialicons">
+                    <div className="social-icons-box ">
+                      <ul className="social-icons-list ">
+                        <li className="socialicons ">
                           <a
                             href="https://github.com/naserPSD"
                             target="_blank"
                             rel="noreferrer"
-                            className="iconcolour homesocialicons"
+                            className="iconBtn"
                           >
-                            <div className="icon-box">
+                            <div className="icon-box ">
                               <AiFillGithub className="icon" />
                             </div>
                           </a>
@@ -80,7 +80,7 @@ export default function Home() {
                             href="https://www.linkedin.com/in/md-naser-bin-hossain-9712b7285/"
                             target="_blank"
                             rel="noreferrer"
-                            className="iconcolour homesocialicons"
+                            className="iconBtn "
                           >
                             <div className="icon-box">
                               <FaLinkedinIn className="icon" />
@@ -92,7 +92,7 @@ export default function Home() {
                             href="https://mail.google.com/mail/u/0/#inbox"
                             target="_blank"
                             rel="noreferrer"
-                            className="iconcolour homesocialicons"
+                            className="iconBtn"
                           >
                             <div className="icon-box">
                               <CgMail className="icon" />
